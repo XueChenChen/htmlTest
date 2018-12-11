@@ -1,0 +1,831 @@
+/* common style */
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+/* site style */
+body {
+    color: #333;
+    font-size: 12px;
+    min-width: 1180px;
+    background: #262626;
+}
+.zh-cn body {
+    font-family: STHeiti,"Microsoft YaHei", "微软雅黑", "SimSun", "宋体",arial;
+}
+.zh-tw body {
+    font-family: "Microsoft JhengHei","微軟正黑體",arial,helvetica,sans-serif;
+}
+#mainBody {
+    background: url("./bg_x.jpg") 50% 0 repeat-x #F4F4F4;
+}
+#page-container {
+    padding: 82px 0 30px;
+    background: url("./live_bg.jpg") 50% 0 no-repeat;
+}
+.first #page-container {
+    background: none;
+    padding-top: 0;
+}
+.ball #page-container {
+    background: url("./sports_bg.jpg") 50% 0 no-repeat;
+}
+.ltlottery #page-container {
+    background: url("./lottery_bg.jpg") 50% 0 no-repeat;
+}
+.game #page-container {
+    background: url("./game_bg.jpg") 50% 0 no-repeat;
+}
+.madvertis #page-container {
+    background: none;
+}
+.memberexclusiveii #page-container {
+    margin-top: 82px;
+    padding-top: 0;
+    background: #FCFCFC;
+}
+#page-body {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #292929;
+}
+.first #page-body {
+    width: 1180px;
+    background-color: transparent;
+}
+.madvertis #page-body {
+    background-color: transparent;
+}
+.memberexclusiveii #page-body {
+    padding-bottom: 45px;
+}
+.game #page-body {
+    background-color: #E0E0E0;
+    padding-bottom: 20px;
+}
+
+/* header */
+.header {
+    margin: 0 auto;
+    width: 1180px;
+    position: relative;
+}
+.header-top {
+    height: 36px;
+}
+.top-link-wrap {
+    float: right;
+    color: #7F7F7F;
+    max-width: 1082px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.top-link-wrap span {
+    float: right;
+}
+.top-link-wrap span:first-child a {
+    padding-right: 0;
+}
+.top-link-wrap a {
+    color: inherit;
+    text-decoration: none;
+    line-height: 36px;
+    padding: 0 6px;
+}
+.top-link-wrap .line {
+    padding: 0 4px 0 3px;
+}
+.top-custom-link:hover {
+    color: #FFF !important;
+}
+.lang-wrap {
+    float: left;
+    margin-top: 7px;
+    background: url("./lang_icon.png") 73px 11px no-repeat;
+}
+.lang-wrap .ele-lang-wrap {
+    border: none;
+    background: transparent;
+    width: 88px;
+}
+.lang-wrap .ele-lang-title {
+    color: #7F7F7F;
+}
+.headerfixed {
+    height: 150px;
+}
+.fixed .fixed-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1180px;
+    z-index: 100;
+    background: url("./bg_x.jpg") 50% -36px repeat-x #F4F4F4;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+.header-main-container {
+    width: 1180px;
+    margin: 0 auto;
+}
+.header-middle {
+    margin-bottom: 10px;
+    background: url("./header_ad_line.jpg") 230px 24px no-repeat;
+}
+.header-logo {
+    width: 220px;
+    height: 76px;
+    margin: 12px 15px 0 0;
+    float: left;
+}
+.link-happy {
+    float: left;
+    width: 170px;
+    height: 80px;
+    margin-top: 10px;
+    background: url("./website.gif") 0 0 no-repeat;
+}
+.link-wrap {
+    float: right;
+    margin-top: 25px;
+}
+.link-wrap a {
+    float: right;
+    width: 140px;
+    height: 50px;
+    margin-left: 6px;
+}
+.link-wrap a:hover {
+    background-position: 0 100%;
+}
+
+/* 首頁登入區 */
+.first-login-wrap {
+    height: 320px;
+    padding-top: 30px;
+    background-color: #FFF;
+}
+.first-after-login {
+    padding-top: 87px;
+    height: 263px;
+}
+.first-login-wrap,
+.first-after-login {
+    width: 360px;
+    float: left;
+}
+.first-login-unit {
+    position: relative;
+    display: block;
+    width: 310px;
+    margin: 0 auto 10px;
+    background: url("./loginInput_bg01.png") 0 0 no-repeat;
+}
+.first-login-unit-pwd {
+    background: url("./loginInput_bg02.png") 0 0 no-repeat;
+}
+.first-login-unit-chk {
+    background: url("./loginInput_bg03.png") 0 0 no-repeat;
+}
+.first-login-input {
+    border: none;
+    background-color: transparent;
+    width: 257px;
+    outline: none;
+    line-height: 48px;
+    height: 48px;
+    padding-left: 53px;
+    color: #999;
+}
+.first-login-acc {
+    width: 212px;
+}
+.first-login-unit .first-login-placeholder,
+.acc-unicode {
+    position: absolute;
+    color: #999;
+    font-family: arial;
+    font-size: 16px;
+}
+.first-login-unit .first-login-placeholder {
+    top: 16px;
+    left: 54px;
+    cursor: text;
+}
+.first-acc-unicode {
+    top: 1px;
+    right: 5px;
+    font-size: 14px;
+}
+#vPic1 {
+    position: absolute;
+    top: 15px;
+    right: 27px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.btn-wrap {
+    width: 310px;
+    margin: 0 auto;
+}
+.first-login-submit {
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    width: 150px;
+    height: 48px;
+    float: left;
+    margin-right: 7px;
+}
+.first-forget-pw {
+    float: left;
+    width: 150px;
+    height: 48px;
+}
+.first-header-join {
+    float: left;
+    width: 310px;
+    height: 54px;
+    margin-top: 10px;
+}
+.first-login-submit:hover,
+.first-forget-pw:hover,
+.first-header-join:hover {
+    background-position: 0 100%;
+}
+
+/* 首頁登入後 */
+.first-mem-info {
+    font-size: 18px;
+    color: #666;
+    width: 296px;
+    margin: 0 auto;
+}
+.first-mem-info .ele-acc-name {
+    padding-bottom: 13px;
+}
+.en .first-mem-info .ele-acc-name {
+    padding-bottom: 16px;
+}
+.first-mem-info .ele-first-balance strong,
+.first-mem-info .ele-obalance-wrap {
+    color: #C7A13F;
+}
+.first-mem-info .ele-obalance-wrap:hover {
+    color: #8C8C8C;
+}
+.first-mem-info .ele-accinfo .fa {
+    font-size: 17px;
+}
+
+/* 登入區 */
+.login-wrap {
+    width: 1000px;
+    margin: 10px auto 9px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+}
+.login-unit {
+    position: relative;
+    display: inline-block;
+    background: url("./insideinput_bg01.png") 0 0 no-repeat;
+    width: 172px;
+    margin: 16px 10px 16px 0;
+    vertical-align: middle;
+}
+.login-unit:hover {
+    background-position: 0 100%;
+}
+.login-unit-user {
+    margin-left: 136px;
+}
+.login-unit-pwd {
+    background: url("./insideinput_bg02.png") 0 0 no-repeat;
+}
+.login-unit-chk {
+    background: url("./insideinput_bg03.png") 0 0 no-repeat;
+}
+.login-input {
+    border: none;
+    background-color: transparent;
+    width: 134px;
+    padding-left: 38px;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    color: #999;
+}
+.login-acc {
+    width: 96px;
+}
+.login-unit .login-placeholder,
+.acc-unicode {
+    position: absolute;
+    color: #999;
+    font-family: arial;
+}
+.login-unit .login-placeholder {
+    top: 9px;
+    left: 40px;
+    cursor: text;
+}
+.acc-unicode {
+    top: 6px;
+    right: 5px;
+    font-size: 14px;
+}
+#vPic {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.login-submit {
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+}
+.header-join,
+.forget-pw,
+.login-submit {
+    display: inline-block;
+    vertical-align: middle;
+    width: 95px;
+    height: 30px;
+    margin: 16px 13px 16px 0;
+}
+.header-join {
+    margin-right: 10px;
+}
+.forget-pw {
+    margin-right: 0;
+}
+.header-join:hover,
+.forget-pw:hover,
+.login-submit:hover {
+    background-position: 0 100%;
+}
+/* 登入後 */
+.header-after-login {
+    width: 1000px;
+    bottom: -72px;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+}
+.en .header-after-login {
+    font-size: 12px;
+}
+.mem-info {
+    position: absolute;
+    top: 20px;
+    left: 152px;
+}
+.header-after-login .ele-acc-name,
+.header-after-login .ele-acc-unit {
+    float: left;
+}
+.header-after-login .ele-acc-name {
+    margin-right: 15px;
+}
+.mem-info .ele-first-balance strong {
+    font-size: 12px;
+    color: #C7A13F;
+}
+.header-after-login .ele-acc-name strong,
+.header-after-login .ele-obalance-wrap {
+    color: #C7A13F;
+}
+.header-after-login .ele-accinfo .fa {
+    font-size: 12px;
+}
+.header-after-login .ele-obalance-wrap:hover {
+    color: #ED3755;
+}
+
+/* 加號展開 */
+.ele-obalance-item-wrap.ele-item-style-cover {
+    background: #525252;
+}
+.ele-obalance-item-wrap.ele-item-style-cover .ele-obalance-item {
+    border: 1px solid #525252;
+}
+.ele-obalance-item-wrap.ele-item-style-cover .ele-obalance {
+    color: #FFF;
+}
+.ele-obalance-item-wrap.ele-item-style-cover .ele-balance-tool {
+    background: #262626;
+}
+.ele-obalance-item-wrap.ele-item-style-cover .ele-balance-tool a {
+    background: #666;
+}
+.ele-obalance-item-wrap.ele-item-style-cover .ele-balance-tool a:hover {
+    background: #CDA542;
+}
+
+/* 首頁會員選單 */
+.first-SU-Menual {
+    color: #4C4C4C;
+    width: 320px;
+    margin: 22px auto 0;
+}
+.en .first-SU-Menual {
+    margin-top: 23px;
+}
+.first-SU-Menual li {
+    float: left;
+}
+.first-SU-Menual a {
+    float: left;
+    color: inherit;
+    text-decoration: none;
+    padding: 0 15px;
+    margin: 0 5px 10px 0;
+    line-height: 36px; 
+    height: 36px;
+    font-size: 14px;   
+}
+.first-SU-Menual a:hover {
+    color: #FFF;
+    background-color: #C19832;
+}
+.first-SU-Menual .first-su-logout {
+    width: 290px;
+    height: 54px;
+    display: inline-block;
+    padding: 0;
+    margin: 15px 0 0 12px;
+}
+.first-SU-Menual .first-su-logout:hover {
+    background-position: 0 100%;
+}
+
+/* 會員選單 */
+.SU-Menual {
+    float: right;
+    color: #B2B2B2;
+    margin: 20px 3px 23px 0;
+}
+.SU-Menual li {
+    float: left;
+}
+.SU-Menual a {
+    color: #4C4C4C;
+    text-decoration: none;
+    padding: 0 3px;
+}
+.SU-Menual a:hover {
+    color: #D3AB45;
+}
+
+/* 導覽列 */
+.ele-navbar-wrap li {
+    float: left;
+    margin-right: 18px;
+}
+.ele-navbar-wrap ul a {
+    display: block;
+    text-decoration: none;
+}
+.ele-navbar-wrap ul a .ele-nav-title {
+    display: block;
+    width: 88px;
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+.ele-navbar-wrap ul a.current .ele-nav-title,
+.ele-navbar-wrap ul a:hover .ele-nav-title {
+    color: #CDA542 !important;
+    background: url("./nav_over.jpg") 50% 100% no-repeat;
+}
+.ele-navbar-wrap .ele-nav-hot {
+    left: 79px;
+    bottom: 25px;
+}
+.ele-navbar-wrap .ele-more-icon {
+    bottom: 14px;
+    right: 11px;
+}
+.ele-navbar-wrap .ele-sidemenu-group,
+.ele-navbar-wrap li.ele-more-nav {
+    display: none;
+}
+
+/*banner-wrap*/
+.banner-wrap {
+    height: 200px;
+}
+
+/* 首頁 */
+.first-top {
+    margin-top: 20px;
+}
+.ad-flash-wrap {
+    width: 820px;
+    height: 350px;
+    float: left;
+}
+.ad-flash-wrap .ele-slideshow-nav a {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: url("./slider_ctrl.png") 0 0 no-repeat transparent;
+}
+.ad-flash-wrap .ele-slideshow-control-wrap {
+    bottom: 7px;
+}
+.ad-flash-wrap .ele-slideshow-nav a.active,
+.ad-flash-wrap .ele-slideshow-nav a:hover {
+    background-position: 0 100%;
+    background-color: transparent;
+}
+.first-money-wrap {
+    margin: 20px 0 17px; 
+}
+.first-money-wrap a {
+    display: inline-block;
+    width: 384px;
+    height: 100px;
+    margin-right: 14px;
+}
+.first-money-wrap a:hover {
+    background-position: 0 100%;
+}
+.first-money-wrap .money-red {
+    margin-right: 0;
+}
+.first-game-wrap {
+    float: left;
+    width: 782px;
+    height: 280px;
+    background: url("./first_game_bg.jpg") 0 0 no-repeat;
+}
+.first-game-wrap .ele-firstgame-1,
+.first-game-wrap .ele-firstgame-6 {
+    margin-right: 1px;
+}
+.first-game-wrap .ele-firstgame-5,
+.first-game-wrap .ele-firstgame-10 {
+    margin-left: 1px;
+}
+.first-bottom-wrap .game-item,
+.game-item span {
+    float: left;
+    width: 384px;
+    height: 380px;
+    margin: 0 14px 14px 0;
+    position: relative;
+}
+.game-item span {
+    display: none;
+}
+.game-item:hover span {
+    display: block;
+}
+.first-bottom-wrap .game-item:nth-of-type(3),
+.first-bottom-wrap .game-item:nth-of-type(6) {
+    margin-right: 0;
+}
+.game-more {
+    width: 118px;
+    height: 30px;
+    float: right;
+    margin: 16px 0 15px;
+}
+.game-more:hover {
+    background-position: 0 100%;
+}
+.game-btn {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    top: 278px;
+    left: 33px;
+}
+.game-btn:hover {
+    background-position: 0 100%;
+}
+
+/* 最新消息 */
+.news-wrap {
+    float: right;
+    width: 384px;
+    height: 280px;
+}
+.news-item {
+    line-height: 26px;
+    height: 155px;
+    width: 356px;
+    margin: 86px 14px 0;
+    color: #666;
+    font-size: 16px;
+}
+
+/* footer */
+#page-footer {
+    padding-bottom: 6px;
+    background: url("./footer_bg_x.jpg") 50% 0 repeat-x #262626;
+}
+.footer {
+    width: 1180px;
+    margin: 0 auto;
+}
+.footer-top a {
+    float: left;
+    width: 384px;
+    height: 92px;
+    margin: 44px 14px 44px 0;
+}
+.footer-top a:hover {
+    background-position: 0 100%;
+}
+.footer-top .footer-ub {
+    margin-right: 0;
+}
+.footer-left {
+    float: left;
+    background: url("./footer_logo.png") 100px 25px no-repeat;
+}
+#bblogo {
+    float: left;
+}
+#bblogo {
+    margin: 40px 0 0 304px;
+}
+.footer-right {
+    float: right;
+    color: #B3B3B3;
+    font-size: 13px;
+    max-width: 544px;
+    margin-right: 96px;
+}
+.article-menu {
+    text-align: right;
+    margin-top: 29px;
+    height: 17px;
+}
+.article-menu a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 2px;
+}
+.article-menu a:hover {
+    color: #FFF !important;
+}
+.footer-contact {
+    margin: 9px 0 31px;
+}
+.footer-email {
+    margin-right: 48px;
+    padding-left: 32px;
+    background: url("./footer_icon_mail.png") 0 2px no-repeat;
+}
+.footer-phone {
+    padding-left: 33px;
+    background: url("./footer_icon_serive.png") 0 2px no-repeat;
+}
+.footer-info {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
+}
+
+/* 文案區塊 */
+#page-sidebar {
+    float: left;
+    width: 250px;
+}
+#page-right {
+    float: right;
+    padding: 0 26px;
+    background-color: #FFF;
+}
+#page-right,
+#page-right iframe {
+    width: 688px;
+}
+
+/* 文案頁-側邊選單 */
+.sidemenu-body li {
+    margin-bottom: 5px;
+}
+.sidemenu-body a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #656565;
+    font-size: 16px;
+    padding: 0 32px 0 59px;
+    background: url("./sidebar.jpg") 0 0 no-repeat;
+}
+.sidemenu-body a:hover {
+    color: #FFF;
+    background-position: 0 100%;
+}
+
+/* 文案+優惠活動 */
+#direction {
+    font-size: 14px;
+    color: #4C4C4C;
+}
+/* 文案標題 */
+#direction .case-article-title {
+    color: #333;
+    font-size: 18px;
+    margin: 33px auto 60px;
+}
+
+/* 頁籤 */
+#direction ul.mtab-menual {
+    list-style: none;
+    border-bottom: 1px solid #DBDBDB;
+}
+#direction ul.mtab-menual li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 24px 0 8px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+#direction ul.mtab-menual li:hover,
+#direction ul.mtab-menual li.mtab {
+    background: url("./event_btn_over.jpg") 50% 100% no-repeat;
+    color: #D3AB45;
+}
+#direction .mtab-menual {
+    margin-top: 10px;
+}
+
+/*優惠活動*/
+#direction #PT-switcher-wrap {
+    margin: 18px 0 20px;
+    padding-left: 0;
+}
+#direction #MemberExclusive_area .eventtext {
+    background: #F5F5F5;
+}
+/* 優惠活動-各活動間距 */
+#direction #MemberExclusive_area .MemberExclusive {
+    margin-bottom: 11px;
+}
+
+/*共用頁面*/
+.Tpl-table01 {
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    color: #000;
+    font-size: 12px;
+}
+table .Tpl-title01 th {
+    background-color: #DDD;
+    height: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+#Tpl-user-acc span {
+    color: #0000FF;
+    line-height: 20px;
+}
+.Tpl-table01 th, .Tpl-table01 td {
+    border: 1px solid #CCC;
+    height: 22px;
+}
+tr.Tpl-trcolor1 {
+    background: #FFF;
+}
+tr.Tpl-trcolor2 {
+    background: #EEE;
+}
+tr.Tpl-trmouseenter {
+    background: #DEF;
+}
+#Tpl-memdata .Tpl-table01 th,
+#Tpl-memdata .Tpl-table01 td.Tpl-left {
+    text-align: center;
+}
+#Tpl-memdata .Tpl-table01 td.Tpl-right {
+    text-align: left;
+}
+.Tpl-blue {
+    color: #00F;
+}
